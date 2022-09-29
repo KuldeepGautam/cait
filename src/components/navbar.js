@@ -61,16 +61,38 @@ const Navbar = () => {
       </div>
 
       <div className="content">
-        <h2>Responsive Sidebar Example</h2>
-        <p>
-          This example use media queries to transform the sidebar to a top
-          navigation bar when the screen size is 700px or less.
-        </p>
-        <p>
-          We have also added a media query for screens that are 400px or less,
-          which will vertically stack and center the navigation links.
-        </p>
-        <h3>Resize the browser window to see the effect.</h3>
+        <div className="row">
+          <div className="col-lg-9 col-md-9 col-sm-12">
+            {" "}
+            <b> &larr; Century</b> &#62;{" "}
+            <b className="text-success">Division</b>
+            <br />
+            <div className="row">
+              <div className="col-lg-3 col-md-3 col-sm-12">
+                <div class="card-user">
+                  <div class="card-header">Featured</div>
+                  <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                      A third item A third itemA third itemA third itemA third
+                      item
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="col-lg-3 col-md-3 col-sm-12">2</div>
+              <div className="col-lg-3 col-md-3 col-sm-12">3</div>
+              <div className="col-lg-3 col-md-3 col-sm-12">4</div>
+            </div>
+          </div>
+          <div className="col-lg-3 col-md-3 col-sm-12">
+            <br />
+            <div>
+              <button className="btn add-button" width="100%">
+                + Add New Division
+              </button>
+            </div>
+          </div>
+        </div>
       </div>
     </>
   );

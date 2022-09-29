@@ -32,6 +32,21 @@ body {
     border-left: 4px solid;
     transition: 0.5s;
 }
+.card-user{
+  background-color: #00b292;
+  color: white;
+}
+.card-user>div{
+  padding: 0px 15px;
+}
+.add-button{
+  background-color: #f26724;
+  color: white;
+}
+.add-button:hover{
+  background-color: #f26724 !important;
+  color: white !important;
+}
 
 div.content {
   margin-left: 200px;
