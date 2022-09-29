@@ -23,6 +23,8 @@ body {
  
 .sidebar a.active {
   background-color: #04aa6d00;
+
+  
   color: white;
 }
 
