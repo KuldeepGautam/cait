@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.sidebar {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  background-color: #ffffff;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  box-shadow: 2px 2px 5px #b2bec3;
+}
+
+.sidebar a {
+  display: block;
+  color: black;
+  padding: 16px;
+  text-decoration: none;
+}
+ 
+.sidebar a.active {
+  background-color: #04aa6d00;
+
+  
+  color: white;
+}
+
+.sidebar a:hover:not(.active) {
+    color: #f26724;
+    box-shadow: 2px 3px 5px #e4e4e4;
+    border-left: 4px solid;
+    transition: 0.5s;
+}
+
+.table-heading{
+  background-color: #00b292;
+  color: white;
+}
+
+.table-heading>th:nth-child(1){
+  padding: 5px 0px 5px 10px;
+}
+
+.table-heading>th:nth-child(2){
+  padding: 5px 10px 5px 0px;
+  text-align: right;
+}
+
+.table-description{
+  background-color: white;
+}
+
+.table-description>td{
+  padding: 10px;
+}
+
+.add-button{
+  background-color: #f26724;
+  color: white;
+}
+.add-button:hover{
+  background-color: #f26724 !important;
+  color: white !important;
+}
+
+div.content {
+  margin-left: 200px;
+  padding: 1px 16px;
+  height: 1000px;
+  background-color: #e4ecf7;
+}
+
+@media screen and (max-width: 700px) {
+  .sidebar {
+    width: 100%;
+    height: auto;
+    position: relative;
+  }
+  .sidebar a {float: left;}
+  div.content {margin-left: 0;}
+}
+
+
+
+@media screen and (max-width: 400px) {
+  .sidebar a {
+    text-align: center;
+    float: none;
+  }
+}
+
+.user-icon>i{
+  background-color: #e4ecf7;
+  border-radius: 39px;
+  padding: 7px;
+}
+
+.logo-Img>img{
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 53%;
+}
